@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,900;1,700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: var(--scroll-padding, 15rem);
+}
+
 body {
     background-color: #222;
-    scroll-behavior: smooth;
     color: white;
     font-family: 'Noto Sans', sans-serif;
 }
@@ -48,10 +53,42 @@ p {
     transform: translateY(90%);
 }
 
+#secondHero {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(400px, 1fr));
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    padding: 2rem;
+}
+
+.purple {
+    color: blueviolet;
+    font-weight: 900;
+}
+
+.gridElement > div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-shadow: #fff 1px 1px 2px;
+}
+
 @media (max-width:850px){
     #phone {
         order: 0;
     }
-   
+   #secondHero {
+        grid-template-columns: 1fr;
+   }
    
 }
