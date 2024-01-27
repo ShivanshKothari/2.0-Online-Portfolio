@@ -129,5 +129,9 @@ a:hover {
    #secondHero {
         grid-template-columns: 1fr;
    }
+   .projectCard {
+    width: 300px;
+    height: 375px;
+   }
    
 }
