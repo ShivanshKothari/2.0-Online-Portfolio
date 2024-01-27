@@ -58,20 +58,17 @@ Explore some of my notable projects:
 
 ### Web-related
 1. **BlackJack**
-   ![BlackJack](static/img/black-jack.webp)
 
 2. **ToDo List**
-   ![ToDo List](static/img/todolist.png)
+
 
 ### Python
 1. **Site Crawler**
-   ![Site Crawler](static/img/site-crawler.png)
 
 2. **Space Invaders**
-   ![Space Invaders](static/img/space-invaders.png)
 
 3. **GUI Calculator**
-   ![GUI Calculator](static/img/calculator.png)
+
 
 ## Contact
 
