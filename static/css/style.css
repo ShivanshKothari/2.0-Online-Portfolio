@@ -115,12 +115,39 @@ ul {
 }
 
 a {
+    color: #fff;
     text-decoration: none;
 }
 
 a:hover {
     text-shadow: #fff 1px 1px 2px;
 }
+
+footer {
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: #fff 1px solid;
+    padding: 2em;
+    margin-left: 0;
+}
+
+footer ul {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.purpleLink:hover {
+    color: blueviolet;
+    text-shadow: blueviolet 1px 1px 2px;
+}
+
+
 
 @media (max-width:850px){
     #phone {
@@ -132,6 +159,12 @@ a:hover {
    .projectCard {
     width: 300px;
     height: 375px;
+   }
+   footer {
+        gap: 0;
+   }
+   footer ul {
+        display: block;
    }
    
 }
