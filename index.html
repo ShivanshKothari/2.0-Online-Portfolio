@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="static/css/style.css">
     <link rel="stylesheet" href="static/css/arrow.css">
     <script defer src="static/js/script.js"></script>
+    <base target="_blank">
 </head>
 <body>
-    <section id="introHero">
+    <section id="introHero" class="hero">
         <img src="static/img/phone.png" alt="My Photo" id="phone">
         <div class="intro">
             <h1>Hi,</h1>
@@ -17,7 +18,7 @@
             <p class="myIntro">I am an aspiring web developer with a potent urge to tinker and a hobby of reading webtoons. </p>
         </div>
     </section>
-    <a href="#secondHero" class="scrollLink">
+    <a href="#secondHero" class="scrollLink" target="_self">
 
         <div id="wrapper">
             <div id="wrapper-inner">
@@ -32,7 +33,7 @@
             </div>
         </div>
     </a>
-    <section id="secondHero">
+    <section id="secondHero" class="hero">
         <div class="gridElement">
             <h2 class="purple">TeckStack:</h2>
             <div>
@@ -52,7 +53,7 @@
         </div>
         <div class="gridElement">
             <h2 class="purple">Badges & Certification:</h2>
-            <p>Mysql LinkedIn Badge <a href="https://www.linkedin.com/in/shivansh-kothari-047357223/">🔗</a><br>CSS Certification<a href="https://www.hackerrank.com/certificates/2fe580172ffb">🔗</a><br>Javascript Certification<a href="https://www.linkedin.com/in/shivansh-kothari-047357223/">🔗</a>
+            <p>Mysql LinkedIn Badge <a href="https://www.linkedin.com/in/shivansh-kothari-047357223/">🔗</a><br>CSS Certification<a href="https://www.hackerrank.com/certificates/2fe580172ffb">🔗</a><br>Javascript Certification<a href="https://www.hackerrank.com/certificates/2fe580172ffb">🔗</a>
             </p>
         </div>
         <div class="gridElement">
@@ -60,6 +61,67 @@
             <p>Reading Manga/Webtoons<br>Watching Anime<br>Tinkering with my Machine</p>
         </div>
         
+    </section>
+    <a href="#thirdHero" class="scrollLink" target="_self">
+    
+        <div id="wrapper">
+            <div id="wrapper-inner">
+                <div id="scroll-down">
+                    <span class="arrow-down">
+                        <!-- css generated icon -->
+                    </span>
+                    <span id="scroll-title">
+                        Scroll down
+                    </span>
+                </div>
+            </div>
+        </div>
+    </a>
+    <section id="thirdHero" class="hero">
+        <h2 class="purple">My Projects</h2>
+        <ul>
+            <li>
+                <h3>Web related -</h3>
+                <div class="projectContainer">
+                    <div class="projectCard">
+                        <h3>BlackJack</h3>
+                        <img src="static/img/black-jack.webp" alt="">
+
+                    </div>
+                    <div class="projectCard">
+                        <h3>ToDo List</h3>
+                        <img src="static/img/todolist.png" alt="">
+
+                    </div>
+                    <div class="projectCard">
+                        <h3></h3>
+                        <img src="static/img/black-jack.webp" alt="">
+
+                    </div>
+                </div>
+            </li>
+            <li>
+                <h3>Python -</h3>
+                <div class="projectContainer">
+                    <div class="projectCard">
+                        <h3>Site Crawler</h3>
+                        <img src="static/img/site-crawler.png" alt="">
+
+                    </div>
+                    <div class="projectCard">
+                        <h3>Space Invaders</h3>
+                        <img src="static/img/space-invaders.png" alt="">
+
+                    </div>
+                    <div class="projectCard">
+                        <h3>GUI Calculator</h3>
+                        <img src="static/img/calculator.png" alt="">
+
+                    </div>
+                </div>
+            </li>
+            
+        </ul>
     </section>
 </body>
 </html>

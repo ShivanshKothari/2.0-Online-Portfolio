@@ -15,7 +15,7 @@
   #scroll-down {
       display: block;
       position: relative;
-      padding-top: 79px;
+      padding-top: 42px;
     text-align:center;
   }
   .arrow-down {
@@ -67,7 +67,7 @@
       left: 50%;
       margin-left: -1px;
       width: 2px;
-      height: 90px;
+      height: 45px;
       background: #FFF;
       content: ' ';
   }
