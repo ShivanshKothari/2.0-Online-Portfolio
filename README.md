@@ -1,6 +1,6 @@
 # Portfolio Website - Shivansh Kothari
 
-Welcome to my [portfolio website](shivanshkothari.github.io/2.0-Online-Portfolio/)! This site showcases my skills, education, projects, and more. Feel free to explore and learn more about me.
+Welcome to my [portfolio website](https://shivanshkothari.github.io/2.0-Online-Portfolio/)! This site showcases my skills, education, projects, and more. Feel free to explore and learn more about me.
 
 ## Table of Contents
 
